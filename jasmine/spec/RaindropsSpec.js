@@ -23,6 +23,13 @@ describe('raindrops', function() {
     });
   });
 
+  describe('when given number has 3 and 5 as a factor', function() {
+
+    it('returns "PlingPlang', function() {
+      expect(raindrops(15)).toEqual('PlingPlang');
+    });
+  });
+
   describe("when given a number that doesn't have 3 as a factor", function() {
 
     it('returns the number', function() {
