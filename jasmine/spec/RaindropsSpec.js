@@ -7,6 +7,13 @@ describe('raindrops', function() {
     });
   })
 
+  describe('when given a number that has 5 as a factor', function() {
+
+    it('returns "Plang"', function() {
+      expect(raindrops(5)).toEqual('Plang');
+    });
+  });
+
   describe("when given a number that doesn't have 3 as a factor", function() {
 
     it('returns the number', function() {
