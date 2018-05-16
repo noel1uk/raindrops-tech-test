@@ -19,6 +19,7 @@ describe('raindrops', function() {
 
     it('returns "Plong"', function() {
       expect(raindrops(7)).toEqual('Plong');
+      expect(raindrops(14)).toEqual('Plong');
     });
   });
 
