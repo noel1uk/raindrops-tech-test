@@ -1,8 +1,5 @@
 function raindrops(number) {
-  if ( number === 5 ) {
-    return 'Plang';
-  }
-  if ( number === 10 ) {
+  if ( number % 5 === 0 ) {
     return 'Plang';
   }
   if ( number % 3 === 0 ) {
