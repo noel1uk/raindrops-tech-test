@@ -30,6 +30,13 @@ describe('raindrops', function() {
     });
   });
 
+  describe('when given number has 3 and 7 as a factor', function() {
+
+    it('returns "PlingPlong"', function() {
+      expect(raindrops(21)).toEqual('PlingPlong');
+    });
+  });
+
   describe("when given a number that doesn't have 3 as a factor", function() {
 
     it('returns the number', function() {
