@@ -11,6 +11,7 @@ describe('raindrops', function() {
 
     it('returns "Plang"', function() {
       expect(raindrops(5)).toEqual('Plang');
+      expect(raindrops(10)).toEqual('Plang');
     });
   });
 
