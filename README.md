@@ -20,7 +20,7 @@ Using JavaScript alongside the Jasmine testing framework I'm going to use TDD to
 
 This means I will write a failing test.
 Then I will write just enough code to make the test past.
-Then I will look for an opportunity to refactor
+Then I will look for an opportunity to refactor.
 
 This process will then be repeated as necessary.
 
