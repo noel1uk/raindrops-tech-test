@@ -8,7 +8,7 @@ function raindrops(number) {
     result += 'Plang';
   }
   if ( number % 7 === 0 ) {
-    return 'Plong';
+    result += 'Plong';
   }
   if ( result === '') {
     result = number;
