@@ -15,6 +15,13 @@ describe('raindrops', function() {
     });
   });
 
+  describe('when given a number that has 7 as a factor', function() {
+
+    it('returns "Plong"', function() {
+      expect(raindrops(7)).toEqual('Plong');
+    });
+  });
+
   describe("when given a number that doesn't have 3 as a factor", function() {
 
     it('returns the number', function() {
