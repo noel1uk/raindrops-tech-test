@@ -12,6 +12,7 @@ describe('raindrops', function() {
     it('returns the number', function() {
       expect(raindrops(1)).toEqual(1);
       expect(raindrops(2)).toEqual(2);
+      expect(raindrops(4)).toEqual(4);
     });
   });
 });
