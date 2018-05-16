@@ -1,12 +1,17 @@
 function raindrops(number) {
+  let result = '';
+
+  if ( number % 3 === 0 ) {
+    result += 'Pling';
+  }
+  if ( number % 5 === 0 ) {
+    result += 'Plang';
+  }
   if ( number % 7 === 0 ) {
     return 'Plong';
   }
-  if ( number % 5 === 0 ) {
-    return 'Plang';
+  if ( result === '') {
+    result = number;
   }
-  if ( number % 3 === 0 ) {
-    return 'Pling';
-  }
-  return number;
+  return result;
 }
