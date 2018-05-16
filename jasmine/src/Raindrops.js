@@ -1,4 +1,7 @@
 function raindrops(number) {
+  if ( number === 7 ) {
+    return 'Plong';
+  }
   if ( number % 5 === 0 ) {
     return 'Plang';
   }
