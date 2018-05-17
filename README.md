@@ -24,7 +24,7 @@ Then I will look for an opportunity to refactor.
 
 This process will then be repeated as necessary.
 
-This will result in a robust and well tested randrops function.
+This will result in a robust and well tested randrops function. It allows a level of security when refactoring as you can easily see if changes you make in one area of the code break any other part of the code.
 
 An example of the intended out come is to have the following code return the correct output:
 
