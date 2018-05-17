@@ -67,9 +67,10 @@ It is possible to add further tests and one test that might be worthwile but tha
 
 ```
 cd raindrops-tech-test
-
+```
+```
 open jasmine/SpecRunner.html
-``
+```
 
 * Open console on the page then type
 
