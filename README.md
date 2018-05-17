@@ -44,11 +44,11 @@ These test suites that led to the complete solution are as follows
 * when given a number that has 3 and 7 as a factor
 * when given a number that doesn't have 3 as factor
 
-These tests and the nnumbers test are what led to the solution. It is of course possible to add more expectations however that wouldn't be necessary.
+These tests and the numbers tested are what led to the complete solution.
 
 ### Suplementary test suite
 
-It is of course possible to add further tests and one test that might be worthwile but that I've not included in the actual test suite as it passes as a result of the previous TDD process is to ensure that:
+It is possible to add further tests and one test that might be worthwile but that I've not included in the actual test suite as it passes as a result of the previous TDD process is as follows:
 
 * when a given number has 3, 5 and 7 as a factor
 
