@@ -32,3 +32,47 @@ An example of the intended out come is to have the following code return the cor
 raindrops(number)
 ```
 
+## Test structure
+All test suites are held in the raindrops describe block.
+
+These test suites that led to the complete solution are as follows 
+
+* when given a number that has 3 as a factor
+* when given a number that has 5 as a factor
+* when given a number that has 7 as a factor
+* when given a number has 3 and 5 as a factor
+* when given a number that has 3 and 7 as a factor
+* when given a number that doesn't have 3 as factor
+
+These tests and the nnumbers test are what led to the solution. It is of course possible to add more expectations however that wouldn't be necessary.
+
+### Suplementary test suite
+
+It is of course possible to add further tests and one test that might be worthwile but that I've not included in the actual test suite as it passes as a result of the previous TDD process is to ensure that:
+
+* when a given number has 3, 5 and 7 as a factor
+
+```
+  describe('when a given number has 3, 5 and 7 as a factor', function() {
+
+    it('returns "PlingPlong"', function() {
+      expect(raindrops(105)).toEqual('PlingPlangPlong');
+    });
+  });
+```
+
+## To run tests and use 
+
+* Clone this repository and type the following on the commandline
+
+```
+cd raindrops-tech-test
+
+open jasmine/SpecRunner.html
+``
+
+* Open console on the page then type
+
+```
+raindrops(105)
+```
